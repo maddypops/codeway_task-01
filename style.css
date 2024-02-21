@@ -19,7 +19,7 @@ body{
 nav{
     background-color: white;
     box-shadow: 3px 6px 10px black;
-    position:sticky
+    position:sticky;
 }
 nav ul{
 width: 100%;
@@ -209,6 +209,22 @@ nav li:first-child{
       width: 70px;
       margin-top: 20px;
     }
+    nav{
+      width: 410px;
+    }
+    .image {
+      grid-area: 1/1/2/3;
+      margin-right: 50px;
+  }
+  .subtitle{
+    margin-right:30px;
+  }
+  .title{
+    margin-right: 30px;
+  }
+  .description{
+    margin-right: 20px;
+  }
 }
 
 @media (max-width: 800px) {
@@ -242,7 +258,8 @@ nav li:first-child{
 
   .action__btns {
       margin: auto;
-      padding-left: 60px;
+      padding-left: 20px;
+      padding-bottom:20px;
   }
   .portfolio{
     margin-top: 20px;
@@ -362,6 +379,12 @@ nav li:first-child{
 
 }
 
+@media(max-width:400px){
+  .skill{
+    width: 410px;
+  }
+}
+
 
 
           /* footer */
@@ -450,6 +473,11 @@ ul{
   .footer-col{
     width: 100%;
 }
+}
+@media(max-width:400px){
+  .footer{
+    width: 410px;
+  }
 }
 
 /* project section */
@@ -591,5 +619,11 @@ h2::after{
 @media screen and (max-width: 980px) {
   .card-list {
       margin: 0 auto;
+  }
+}
+
+@media(max-width:400px){
+  .project{
+    width: 390px;
   }
 }
