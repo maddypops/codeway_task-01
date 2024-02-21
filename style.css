@@ -624,6 +624,6 @@ h2::after{
 
 @media(max-width:400px){
   .project{
-    width: 390px;
+    width: 400px;
   }
 }
